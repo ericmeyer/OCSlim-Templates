@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Identifier</key>
+    <string>com.ericmeyer.ocslim</string>
+    <key>Kind</key>
+    <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+    <key>Definitions</key>
+    <dict>
+      <key>cslim/src/ExecutorObjectiveC/StatementExecutor.m</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>OCSlim</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/src/ExecutorObjectiveC/StatementExecutor.m</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+    </dict>
+    
+    <key>Nodes</key>
+    <array>
+      <string>cslim/src/ExecutorObjectiveC/StatementExecutor.m</string>
+    </array>
+  </dict>
+</plist>
