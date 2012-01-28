@@ -250,6 +250,16 @@
         <key>Path</key>
         <string>cslim/include/ExecutorC/SymbolTable.h</string>
       </dict>
+      <key>cslim/fixtures/Main.c</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>fixtures</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/fixtures/Main.c</string>
+      </dict>
     </dict>
     <key>Nodes</key>
     <array>
@@ -275,6 +285,7 @@
       <string>cslim/include/CSlim/SlimUtil.h</string>
       <string>cslim/include/CSlim/StatementExecutor.h</string>
       <string>cslim/include/ExecutorC/SymbolTable.h</string>
+      <string>cslim/fixtures/Main.c</string>
     </array>
   </dict>
 </plist>
