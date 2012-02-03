@@ -4,13 +4,12 @@
   <dict>
     <key>Ancestors</key>
     <array>
-      <string>com.borealkiss.cocoaTouchApplication</string>
+      <string>com.apple.dt.unit.base</string>
+      <string>com.apple.dt.unit.macBase</string>
       <string>com.ericmeyer.ocslim</string>
     </array>
     <key>Concrete</key>
     <true/>
-
-
     <key>Definitions</key>
     <dict>
 
@@ -48,7 +47,7 @@
         <string>SupportingFiles/InfoPlist.strings</string>
       </dict>
 
-      <key>SupportingFiles/iPhone-Prefix.pch</key>
+      <key>SupportingFiles/Mac-Prefix.pch</key>
       <dict>
         <key>Group</key>
         <array>
@@ -56,7 +55,7 @@
           <string>SupportingFiles</string>
         </array>
         <key>Path</key>
-        <string>SupportingFiles/iPhone-Prefix.pch</string>
+        <string>SupportingFiles/Mac-Prefix.pch</string>
       </dict>
 
       <key>cslim/fixtures/Main.c</key>
@@ -77,17 +76,56 @@
       <string>SupportingFiles/AcceptanceTests-Info.plist</string>
       <string>SupportingFiles/Fixtures.m</string>
       <string>SupportingFiles/InfoPlist.strings</string>
-      <string>SupportingFiles/iPhone-Prefix.pch</string>
+      <string>SupportingFiles/Mac-Prefix.pch</string>
       <string>cslim/fixtures/Main.c</string>
     </array>
 
-
-
     <key>Description</key>
-    <string>Some awesome description</string>
+    <string>DESCRIPTION FOR MACRUNNER.</string>
+
     <key>Identifier</key>
-    <string>com.ericmeyer.iphonerunner</string>
+    <string>com.ericmeyer.macrunner</string>
     <key>Kind</key>
     <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+
+    <key>Targets</key>
+    <array>
+      <dict>
+        <key>ProductType</key>
+        <string>com.apple.product-type.tool</string>
+        <key>BuildPhases</key>
+        <array>
+          <dict>
+            <key>Class</key>
+            <string>Sources</string>
+          </dict>
+          <dict>
+            <key>Class</key>
+            <string>Frameworks</string>
+          </dict>
+        </array>
+        <key>SharedSettings</key>
+        <dict>
+          <key>GCC_PREFIX_HEADER</key>
+          <string>${TARGET_NAME}/SupportingFiles/Mac-Prefix.pch</string>
+        </dict>
+        <!-- <key>BuildPhases</key>
+        <array>
+          <dict>
+            <key>Class</key>
+            <string>ShellScript</string>
+            <key>ShellPath</key>
+            <string>/bin/sh</string>
+            <key>ShellScript</key>
+            <string>nothing</string>
+          </dict>
+        </array> -->
+        <key>Frameworks</key>
+        <array>
+          <string>Cocoa</string>
+        </array>
+      </dict>
+    </array>
+
   </dict>
 </plist>
