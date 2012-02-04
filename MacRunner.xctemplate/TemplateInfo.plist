@@ -12,19 +12,6 @@
     <true/>
     <key>Definitions</key>
     <dict>
-
-
-      <key>SupportingFiles/AcceptanceTests-Info.plist</key>
-      <dict>
-        <key>Group</key>
-        <array>
-          <string>cslim</string>
-          <string>SupportingFiles</string>
-        </array>
-        <key>Path</key>
-        <string>SupportingFiles/AcceptanceTests-Info.plist</string>
-      </dict>
-
       <key>SupportingFiles/Fixtures.m</key>
       <dict>
         <key>Group</key>
@@ -35,7 +22,6 @@
         <key>Path</key>
         <string>SupportingFiles/Fixtures.m</string>
       </dict>
-
       <key>SupportingFiles/InfoPlist.strings</key>
       <dict>
         <key>Group</key>
@@ -109,17 +95,8 @@
           <key>GCC_PREFIX_HEADER</key>
           <string>${TARGET_NAME}/SupportingFiles/Mac-Prefix.pch</string>
         </dict>
-        <!-- <key>BuildPhases</key>
-        <array>
-          <dict>
-            <key>Class</key>
-            <string>ShellScript</string>
-            <key>ShellPath</key>
-            <string>/bin/sh</string>
-            <key>ShellScript</key>
-            <string>nothing</string>
-          </dict>
-        </array> -->
+        <key>INFOPLIST_FILE</key>
+        <string/>
         <key>Frameworks</key>
         <array>
           <string>Cocoa</string>
