@@ -9,23 +9,8 @@
     </array>
     <key>Concrete</key>
     <true/>
-
-
     <key>Definitions</key>
     <dict>
-
-
-      <key>SupportingFiles/AcceptanceTests-Info.plist</key>
-      <dict>
-        <key>Group</key>
-        <array>
-          <string>cslim</string>
-          <string>SupportingFiles</string>
-        </array>
-        <key>Path</key>
-        <string>SupportingFiles/AcceptanceTests-Info.plist</string>
-      </dict>
-
       <key>SupportingFiles/Fixtures.m</key>
       <dict>
         <key>Group</key>
@@ -36,7 +21,6 @@
         <key>Path</key>
         <string>SupportingFiles/Fixtures.m</string>
       </dict>
-
       <key>SupportingFiles/InfoPlist.strings</key>
       <dict>
         <key>Group</key>
@@ -47,7 +31,6 @@
         <key>Path</key>
         <string>SupportingFiles/InfoPlist.strings</string>
       </dict>
-
       <key>SupportingFiles/iPhone-Prefix.pch</key>
       <dict>
         <key>Group</key>
@@ -58,7 +41,6 @@
         <key>Path</key>
         <string>SupportingFiles/iPhone-Prefix.pch</string>
       </dict>
-
       <key>cslim/fixtures/Main.c</key>
       <dict>
         <key>Group</key>
@@ -69,25 +51,33 @@
         <key>Path</key>
         <string>cslim/fixtures/Main.c</string>
       </dict>
-
     </dict>
-
     <key>Nodes</key>
     <array>
-      <string>SupportingFiles/AcceptanceTests-Info.plist</string>
       <string>SupportingFiles/Fixtures.m</string>
       <string>SupportingFiles/InfoPlist.strings</string>
       <string>SupportingFiles/iPhone-Prefix.pch</string>
       <string>cslim/fixtures/Main.c</string>
     </array>
-
-
-
     <key>Description</key>
     <string>Some awesome description</string>
     <key>Identifier</key>
     <string>com.ericmeyer.iphonerunner</string>
     <key>Kind</key>
     <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+    <key>Targets</key>
+    <array>
+      <dict>
+        <key>SharedSettings</key>
+        <dict>
+          <key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+          <string>YES</string>
+          <key>GCC_PREFIX_HEADER</key>
+          <string>___PACKAGENAME___/SupportingFiles/iPhone-Prefix.pch</string>
+          <key>INFOPLIST_FILE</key>
+          <string/>
+        </dict>
+      </dict>
+    </array>
   </dict>
 </plist>
