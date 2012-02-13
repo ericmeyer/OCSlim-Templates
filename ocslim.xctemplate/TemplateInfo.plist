@@ -128,6 +128,8 @@
         </array>
         <key>Path</key>
         <string>cslim/include/Com/SocketServer.h</string>
+        <key>TargetIndices</key>
+        <array/>
       </dict>
       <key>cslim/include/Com/TcpComLink.h</key>
       <dict>
@@ -139,6 +141,8 @@
         </array>
         <key>Path</key>
         <string>cslim/include/Com/TcpComLink.h</string>
+        <key>TargetIndices</key>
+        <array/>
       </dict>
       <key>cslim/include/CSlim/Fixtures.h</key>
       <dict>
@@ -150,6 +154,8 @@
         </array>
         <key>Path</key>
         <string>cslim/include/CSlim/Fixtures.h</string>
+        <key>TargetIndices</key>
+        <array/>
       </dict>
       <key>cslim/include/CSlim/ListExecutor.h</key>
       <dict>
@@ -161,6 +167,8 @@
         </array>
         <key>Path</key>
         <string>cslim/include/CSlim/ListExecutor.h</string>
+        <key>TargetIndices</key>
+        <array/>
       </dict>
       <key>cslim/include/CSlim/Slim.h</key>
       <dict>
@@ -172,6 +180,8 @@
         </array>
         <key>Path</key>
         <string>cslim/include/CSlim/Slim.h</string>
+        <key>TargetIndices</key>
+        <array/>
       </dict>
       <key>cslim/include/CSlim/SlimConnectionHandler.h</key>
       <dict>
@@ -183,6 +193,8 @@
         </array>
         <key>Path</key>
         <string>cslim/include/CSlim/SlimConnectionHandler.h</string>
+        <key>TargetIndices</key>
+        <array/>
       </dict>
       <key>cslim/include/CSlim/SlimList.h</key>
       <dict>
@@ -194,6 +206,8 @@
         </array>
         <key>Path</key>
         <string>cslim/include/CSlim/SlimList.h</string>
+        <key>TargetIndices</key>
+        <array/>
       </dict>
       <key>cslim/include/CSlim/SlimListDeserializer.h</key>
       <dict>
@@ -205,6 +219,8 @@
         </array>
         <key>Path</key>
         <string>cslim/include/CSlim/SlimListDeserializer.h</string>
+        <key>TargetIndices</key>
+        <array/>
       </dict>
       <key>cslim/include/CSlim/SlimListSerializer.h</key>
       <dict>
@@ -216,6 +232,8 @@
         </array>
         <key>Path</key>
         <string>cslim/include/CSlim/SlimListSerializer.h</string>
+        <key>TargetIndices</key>
+        <array/>
       </dict>
       <key>cslim/include/CSlim/SlimUtil.h</key>
       <dict>
@@ -227,6 +245,8 @@
         </array>
         <key>Path</key>
         <string>cslim/include/CSlim/SlimUtil.h</string>
+        <key>TargetIndices</key>
+        <array/>
       </dict>
       <key>cslim/include/CSlim/StatementExecutor.h</key>
       <dict>
@@ -238,6 +258,8 @@
         </array>
         <key>Path</key>
         <string>cslim/include/CSlim/StatementExecutor.h</string>
+        <key>TargetIndices</key>
+        <array/>
       </dict>
       <key>cslim/include/ExecutorC/SymbolTable.h</key>
       <dict>
@@ -249,6 +271,8 @@
         </array>
         <key>Path</key>
         <string>cslim/include/ExecutorC/SymbolTable.h</string>
+        <key>TargetIndices</key>
+        <array/>
       </dict>
       <key>cslim/fixtures/Main.c</key>
       <dict>
