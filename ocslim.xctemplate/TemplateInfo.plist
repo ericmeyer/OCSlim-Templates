@@ -274,15 +274,57 @@
         <key>TargetIndices</key>
         <array/>
       </dict>
-      <key>cslim/fixtures/Main.c</key>
+      <key>cslim/bin/iPhoneRunner/RunSlimTests</key>
       <dict>
         <key>Group</key>
         <array>
           <string>cslim</string>
-          <string>fixtures</string>
+          <string>bin</string>
+          <string>iPhoneRunner</string>
         </array>
         <key>Path</key>
-        <string>cslim/fixtures/Main.c</string>
+        <string>cslim/bin/iPhoneRunner/RunSlimTests</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>cslim/bin/iPhoneRunner/RunSlimTestsHeadless</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>bin</string>
+          <string>iPhoneRunner</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/bin/iPhoneRunner/RunSlimTestsHeadless</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>cslim/bin/iPhoneRunner/RunSlimTestsOnSimulator</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>bin</string>
+          <string>iPhoneRunner</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/bin/iPhoneRunner/RunSlimTestsOnSimulator</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>cslim/bin/iPhoneRunner/RunSlimTestsTargetWithSlimPort</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>bin</string>
+          <string>iPhoneRunner</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/bin/iPhoneRunner/RunSlimTestsTargetWithSlimPort</string>
+        <key>TargetIndices</key>
+        <array/>
       </dict>
     </dict>
     <key>Nodes</key>
@@ -309,7 +351,10 @@
       <string>cslim/include/CSlim/SlimUtil.h</string>
       <string>cslim/include/CSlim/StatementExecutor.h</string>
       <string>cslim/include/ExecutorC/SymbolTable.h</string>
-      <string>cslim/fixtures/Main.c</string>
+      <string>cslim/bin/iPhoneRunner/RunSlimTests</string>
+      <string>cslim/bin/iPhoneRunner/RunSlimTestsHeadless</string>
+      <string>cslim/bin/iPhoneRunner/RunSlimTestsOnSimulator</string>
+      <string>cslim/bin/iPhoneRunner/RunSlimTestsTargetWithSlimPort</string>
     </array>
   </dict>
 </plist>

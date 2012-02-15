@@ -11,6 +11,18 @@
     <true/>
     <key>Definitions</key>
     <dict>
+      <key>../fitnesse.jar</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>SupportingFiles</string>
+        </array>
+        <key>Path</key>
+        <string>SupportingFiles/fitnesse.jar</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
       <key>SupportingFiles/Fixtures.m</key>
       <dict>
         <key>Group</key>
@@ -54,6 +66,7 @@
     </dict>
     <key>Nodes</key>
     <array>
+      <string>../fitnesse.jar</string>
       <string>SupportingFiles/Fixtures.m</string>
       <string>SupportingFiles/InfoPlist.strings</string>
       <string>SupportingFiles/iPhone-Prefix.pch</string>
@@ -77,6 +90,19 @@
           <key>INFOPLIST_FILE</key>
           <string/>
         </dict>
+
+        <key>BuildPhases</key>
+        <array>
+          <dict>
+            <key>Class</key>
+            <string>ShellScript</string>
+            <key>ShellPath</key>
+            <string>/bin/sh</string>
+            <key>ShellScript</key>
+            <string>./___PACKAGENAME___/cslim/bin/iPhoneRunner/RunSlimTests</string>
+          </dict>
+        </array>
+
       </dict>
     </array>
   </dict>

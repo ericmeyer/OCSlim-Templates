@@ -1,0 +1,10 @@
+identifier: com.ericmeyer.ocslim
+project_root: cslim
+included_dirs:
+  - src/Com
+  - src/CSlim
+  - src/ExecutorObjectiveC
+  - include/Com
+  - include/CSlim
+  - include/ExecutorC
+  - bin
