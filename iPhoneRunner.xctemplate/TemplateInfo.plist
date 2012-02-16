@@ -140,21 +140,21 @@
         <key>TargetIndices</key>
         <array/>
       </dict>
-      <key>../AcceptanceTests/content.txt</key>
+      <key>../example_tests/content.txt</key>
       <dict>
         <key>Group</key>
         <array/>
         <key>Path</key>
-        <string>AcceptanceTests/content.txt</string>
+        <string>example_tests/content.txt</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
-      <key>../AcceptanceTests/properties.xml</key>
+      <key>../example_tests/properties.xml</key>
       <dict>
         <key>Group</key>
         <array/>
         <key>Path</key>
-        <string>AcceptanceTests/properties.xml</string>
+        <string>example_tests/properties.xml</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -172,8 +172,8 @@
       <string>../bin/iPhoneRunner/RunSlimTestsHeadless</string>
       <string>../bin/iPhoneRunner/RunSlimTestsOnSimulator</string>
       <string>../bin/iPhoneRunner/RunSlimTestsTargetWithSlimPort</string>
-      <string>../AcceptanceTests/content.txt</string>
-      <string>../AcceptanceTests/properties.xml</string>
+      <string>../example_tests/content.txt</string>
+      <string>../example_tests/properties.xml</string>
     </array>
     <key>Description</key>
     <string>Some awesome description</string>
