@@ -72,7 +72,19 @@
           <string>iPhoneRunner</string>
         </array>
         <key>Path</key>
-        <string>cslim/bin/iPhoneRunner/OneTimeSetup</string>
+        <string>SupportingFiles/OneTimeSetup</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>../bin/StartFitnesse</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>bin</string>
+        </array>
+        <key>Path</key>
+        <string>SupportingFiles/StartFitnesse</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -155,6 +167,7 @@
       <string>SupportingFiles/iPhone-Prefix.pch</string>
       <string>cslim/fixtures/Main.c</string>
       <string>../bin/iPhoneRunner/OneTimeSetup</string>
+      <string>../bin/StartFitnesse</string>
       <string>../bin/iPhoneRunner/RunSlimTests</string>
       <string>../bin/iPhoneRunner/RunSlimTestsHeadless</string>
       <string>../bin/iPhoneRunner/RunSlimTestsOnSimulator</string>
