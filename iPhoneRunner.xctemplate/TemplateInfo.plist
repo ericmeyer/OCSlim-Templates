@@ -63,6 +63,89 @@
         <key>Path</key>
         <string>cslim/fixtures/Main.c</string>
       </dict>
+      <key>../bin/iPhoneRunner/OneTimeSetup</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>bin</string>
+          <string>iPhoneRunner</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/bin/iPhoneRunner/OneTimeSetup</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>../bin/iPhoneRunner/RunSlimTests</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>bin</string>
+          <string>iPhoneRunner</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/bin/iPhoneRunner/RunSlimTests</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>../bin/iPhoneRunner/RunSlimTestsHeadless</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>bin</string>
+          <string>iPhoneRunner</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/bin/iPhoneRunner/RunSlimTestsHeadless</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>../bin/iPhoneRunner/RunSlimTestsOnSimulator</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>bin</string>
+          <string>iPhoneRunner</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/bin/iPhoneRunner/RunSlimTestsOnSimulator</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>../bin/iPhoneRunner/RunSlimTestsTargetWithSlimPort</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>bin</string>
+          <string>iPhoneRunner</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/bin/iPhoneRunner/RunSlimTestsTargetWithSlimPort</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>../AcceptanceTests/content.txt</key>
+      <dict>
+        <key>Group</key>
+        <array/>
+        <key>Path</key>
+        <string>AcceptanceTests/content.txt</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
+      <key>../AcceptanceTests/properties.xml</key>
+      <dict>
+        <key>Group</key>
+        <array/>
+        <key>Path</key>
+        <string>AcceptanceTests/properties.xml</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
     </dict>
     <key>Nodes</key>
     <array>
@@ -71,6 +154,13 @@
       <string>SupportingFiles/InfoPlist.strings</string>
       <string>SupportingFiles/iPhone-Prefix.pch</string>
       <string>cslim/fixtures/Main.c</string>
+      <string>../bin/iPhoneRunner/OneTimeSetup</string>
+      <string>../bin/iPhoneRunner/RunSlimTests</string>
+      <string>../bin/iPhoneRunner/RunSlimTestsHeadless</string>
+      <string>../bin/iPhoneRunner/RunSlimTestsOnSimulator</string>
+      <string>../bin/iPhoneRunner/RunSlimTestsTargetWithSlimPort</string>
+      <string>../AcceptanceTests/content.txt</string>
+      <string>../AcceptanceTests/properties.xml</string>
     </array>
     <key>Description</key>
     <string>Some awesome description</string>
@@ -90,7 +180,6 @@
           <key>INFOPLIST_FILE</key>
           <string/>
         </dict>
-
         <key>BuildPhases</key>
         <array>
           <dict>
@@ -99,10 +188,9 @@
             <key>ShellPath</key>
             <string>/bin/sh</string>
             <key>ShellScript</key>
-            <string>./___PACKAGENAME___/cslim/bin/iPhoneRunner/RunSlimTests</string>
+            <string>./bin/iPhoneRunner/RunSlimTests</string>
           </dict>
         </array>
-
       </dict>
     </array>
   </dict>
