@@ -63,13 +63,13 @@
         <key>Path</key>
         <string>cslim/fixtures/Main.c</string>
       </dict>
-      <key>../bin/iPhoneRunner/OneTimeSetup</key>
+      <key>../bin/iOS/OneTimeSetup</key>
       <dict>
         <key>Group</key>
         <array>
           <string>cslim</string>
           <string>bin</string>
-          <string>iPhoneRunner</string>
+          <string>iOS</string>
         </array>
         <key>Path</key>
         <string>SupportingFiles/OneTimeSetup</string>
@@ -88,55 +88,55 @@
         <key>TargetIndices</key>
         <array/>
       </dict>
-      <key>../bin/iPhoneRunner/RunSlimTests</key>
+      <key>../bin/iOS/RunSlimTests</key>
       <dict>
         <key>Group</key>
         <array>
           <string>cslim</string>
           <string>bin</string>
-          <string>iPhoneRunner</string>
+          <string>iOS</string>
         </array>
         <key>Path</key>
-        <string>cslim/bin/iPhoneRunner/RunSlimTests</string>
+        <string>cslim/bin/iOS/RunSlimTests</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
-      <key>../bin/iPhoneRunner/RunSlimTestsHeadless</key>
+      <key>../bin/iOS/RunSlimTestsHeadless</key>
       <dict>
         <key>Group</key>
         <array>
           <string>cslim</string>
           <string>bin</string>
-          <string>iPhoneRunner</string>
+          <string>iOS</string>
         </array>
         <key>Path</key>
-        <string>cslim/bin/iPhoneRunner/RunSlimTestsHeadless</string>
+        <string>cslim/bin/iOS/RunSlimTestsHeadless</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
-      <key>../bin/iPhoneRunner/RunSlimTestsOnSimulator</key>
+      <key>../bin/iOS/RunSlimTestsOnSimulator</key>
       <dict>
         <key>Group</key>
         <array>
           <string>cslim</string>
           <string>bin</string>
-          <string>iPhoneRunner</string>
+          <string>iOS</string>
         </array>
         <key>Path</key>
-        <string>cslim/bin/iPhoneRunner/RunSlimTestsOnSimulator</string>
+        <string>cslim/bin/iOS/RunSlimTestsOnSimulator</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
-      <key>../bin/iPhoneRunner/RunSlimTestsTargetWithSlimPort</key>
+      <key>../bin/iOS/RunSlimTestsTargetWithSlimPort</key>
       <dict>
         <key>Group</key>
         <array>
           <string>cslim</string>
           <string>bin</string>
-          <string>iPhoneRunner</string>
+          <string>iOS</string>
         </array>
         <key>Path</key>
-        <string>cslim/bin/iPhoneRunner/RunSlimTestsTargetWithSlimPort</string>
+        <string>cslim/bin/iOS/RunSlimTestsTargetWithSlimPort</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -166,12 +166,12 @@
       <string>SupportingFiles/InfoPlist.strings</string>
       <string>SupportingFiles/iPhone-Prefix.pch</string>
       <string>cslim/fixtures/Main.c</string>
-      <string>../bin/iPhoneRunner/OneTimeSetup</string>
+      <string>../bin/iOS/OneTimeSetup</string>
       <string>../bin/StartFitnesse</string>
-      <string>../bin/iPhoneRunner/RunSlimTests</string>
-      <string>../bin/iPhoneRunner/RunSlimTestsHeadless</string>
-      <string>../bin/iPhoneRunner/RunSlimTestsOnSimulator</string>
-      <string>../bin/iPhoneRunner/RunSlimTestsTargetWithSlimPort</string>
+      <string>../bin/iOS/RunSlimTests</string>
+      <string>../bin/iOS/RunSlimTestsHeadless</string>
+      <string>../bin/iOS/RunSlimTestsOnSimulator</string>
+      <string>../bin/iOS/RunSlimTestsTargetWithSlimPort</string>
       <string>../example_tests/content.txt</string>
       <string>../example_tests/properties.xml</string>
     </array>
@@ -201,7 +201,7 @@
             <key>ShellPath</key>
             <string>/bin/sh</string>
             <key>ShellScript</key>
-            <string>./bin/iPhoneRunner/RunSlimTests</string>
+            <string>./bin/iOS/RunSlimTests</string>
           </dict>
         </array>
       </dict>

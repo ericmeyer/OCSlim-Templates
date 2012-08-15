@@ -7,3 +7,4 @@ included_dirs:
   - include/Com
   - include/CSlim
   - include/ExecutorC
+  - include/ExecutorObjectiveC
