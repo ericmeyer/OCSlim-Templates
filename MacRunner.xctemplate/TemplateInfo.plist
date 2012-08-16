@@ -168,7 +168,7 @@
     </array>
 
     <key>Description</key>
-    <string>DESCRIPTION FOR MACRUNNER.</string>
+    <string>This template adds a Slim runner for your Mac application.</string>
 
     <key>Identifier</key>
     <string>com.ericmeyer.macrunner</string>
