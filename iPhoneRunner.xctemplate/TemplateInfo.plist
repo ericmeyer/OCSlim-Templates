@@ -63,13 +63,12 @@
         <key>Path</key>
         <string>cslim/fixtures/Main.c</string>
       </dict>
-      <key>../bin/iOS/OneTimeSetup</key>
+      <key>../bin/OneTimeSetup</key>
       <dict>
         <key>Group</key>
         <array>
           <string>cslim</string>
           <string>bin</string>
-          <string>iOS</string>
         </array>
         <key>Path</key>
         <string>SupportingFiles/OneTimeSetup</string>
@@ -166,7 +165,7 @@
       <string>SupportingFiles/InfoPlist.strings</string>
       <string>SupportingFiles/iPhone-Prefix.pch</string>
       <string>cslim/fixtures/Main.c</string>
-      <string>../bin/iOS/OneTimeSetup</string>
+      <string>../bin/OneTimeSetup</string>
       <string>../bin/StartFitnesse</string>
       <string>../bin/iOS/RunSlimTests</string>
       <string>../bin/iOS/RunSlimTestsHeadless</string>

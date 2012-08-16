@@ -66,13 +66,12 @@
         <key>Path</key>
         <string>cslim/fixtures/Main.c</string>
       </dict>
-      <key>../bin/Mac/OneTimeSetup</key>
+      <key>../bin/OneTimeSetup</key>
       <dict>
         <key>Group</key>
         <array>
           <string>cslim</string>
           <string>bin</string>
-          <string>Mac</string>
         </array>
         <key>Path</key>
         <string>SupportingFiles/OneTimeSetup</string>
@@ -158,7 +157,7 @@
       <string>SupportingFiles/InfoPlist.strings</string>
       <string>SupportingFiles/Mac-Prefix.pch</string>
       <string>cslim/fixtures/Main.c</string>
-      <string>../bin/Mac/OneTimeSetup</string>
+      <string>../bin/OneTimeSetup</string>
       <string>../bin/StartFitnesse</string>
       <string>../bin/Mac/RunSlimTests</string>
       <string>../bin/Mac/RunSlimTestsHeadless</string>
