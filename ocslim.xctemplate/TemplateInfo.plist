@@ -173,6 +173,17 @@
         <key>Path</key>
         <string>cslim/src/ExecutorObjectiveC/OCSReturnValue.m</string>
       </dict>
+      <key>cslim/src/ExecutorObjectiveC/OCSSelector.m</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>src</string>
+          <string>ExecutorObjectiveC</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/src/ExecutorObjectiveC/OCSSelector.m</string>
+      </dict>
       <key>cslim/src/ExecutorObjectiveC/OCSStatementExecutor.m</key>
       <dict>
         <key>Group</key>
@@ -440,6 +451,19 @@
         <key>TargetIndices</key>
         <array/>
       </dict>
+      <key>cslim/include/ExecutorObjectiveC/OCSSelector.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>include</string>
+          <string>ExecutorObjectiveC</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/include/ExecutorObjectiveC/OCSSelector.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
       <key>cslim/include/ExecutorObjectiveC/OCSStatementExecutor.h</key>
       <dict>
         <key>Group</key>
@@ -484,6 +508,7 @@
       <string>cslim/src/ExecutorObjectiveC/OCSMethodCaller.m</string>
       <string>cslim/src/ExecutorObjectiveC/OCSObjectiveCtoCBridge.m</string>
       <string>cslim/src/ExecutorObjectiveC/OCSReturnValue.m</string>
+      <string>cslim/src/ExecutorObjectiveC/OCSSelector.m</string>
       <string>cslim/src/ExecutorObjectiveC/OCSStatementExecutor.m</string>
       <string>cslim/src/ExecutorObjectiveC/OCSSymbolDictionary.m</string>
       <string>cslim/src/ExecutorObjectiveC/StatementExecutor.m</string>
@@ -505,6 +530,7 @@
       <string>cslim/include/ExecutorObjectiveC/OCSMethodCaller.h</string>
       <string>cslim/include/ExecutorObjectiveC/OCSObjectiveCtoCBridge.h</string>
       <string>cslim/include/ExecutorObjectiveC/OCSReturnValue.h</string>
+      <string>cslim/include/ExecutorObjectiveC/OCSSelector.h</string>
       <string>cslim/include/ExecutorObjectiveC/OCSStatementExecutor.h</string>
       <string>cslim/include/ExecutorObjectiveC/OCSSymbolDictionary.h</string>
     </array>
