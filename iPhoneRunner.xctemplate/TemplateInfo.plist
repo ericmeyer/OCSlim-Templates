@@ -11,7 +11,7 @@
     <true/>
     <key>Definitions</key>
     <dict>
-      <key>../fitnesse.jar</key>
+      <key>../fitnesse-standalone.jar</key>
       <dict>
         <key>Group</key>
         <array>
@@ -19,7 +19,7 @@
           <string>SupportingFiles</string>
         </array>
         <key>Path</key>
-        <string>SupportingFiles/fitnesse.jar</string>
+        <string>SupportingFiles/fitnesse-standalone.jar</string>
         <key>TargetIndices</key>
         <array/>
       </dict>
@@ -160,7 +160,7 @@
     </dict>
     <key>Nodes</key>
     <array>
-      <string>../fitnesse.jar</string>
+      <string>../fitnesse-standalone.jar</string>
       <string>SupportingFiles/Fixtures.m</string>
       <string>SupportingFiles/InfoPlist.strings</string>
       <string>SupportingFiles/iPhone-Prefix.pch</string>
