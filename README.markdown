@@ -1,3 +1,7 @@
+## Contributing
+
+See: https://github.com/ericmeyer/ObjectiveCSlim
+
 ##Installation
 
 ### Cloning the templates
