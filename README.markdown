@@ -6,7 +6,9 @@ See: https://github.com/ericmeyer/ObjectiveCSlim
 
 ### Cloning the templates
 <pre>
-  git clone git://github.com/ericmeyer/OCSlim-Templates.git ~/Library/Developer/Xcode/Templates/
+  git clone git://github.com/ericmeyer/OCSlim-Templates.git ~/Library/Developer/Xcode/Templates/OCSlim-Templates
+  cd ~/Library/Developer/Xcode/Templates/OCSlim-Templates
+  git submodule update --init
   Restart Xcode
 </pre>
 
