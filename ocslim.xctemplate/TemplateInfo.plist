@@ -107,6 +107,17 @@
         <key>Path</key>
         <string>cslim/src/CSlim/SlimUtil.c</string>
       </dict>
+      <key>cslim/src/ExecutorObjectiveC/Fixtures.m</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>src</string>
+          <string>ExecutorObjectiveC</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/src/ExecutorObjectiveC/Fixtures.m</string>
+      </dict>
       <key>cslim/src/ExecutorObjectiveC/OCSException.m</key>
       <dict>
         <key>Group</key>
@@ -139,6 +150,17 @@
         </array>
         <key>Path</key>
         <string>cslim/src/ExecutorObjectiveC/OCSInvocation.m</string>
+      </dict>
+      <key>cslim/src/ExecutorObjectiveC/OCSlimToObjectiveCBridge.m</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>src</string>
+          <string>ExecutorObjectiveC</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/src/ExecutorObjectiveC/OCSlimToObjectiveCBridge.m</string>
       </dict>
       <key>cslim/src/ExecutorObjectiveC/OCSMethodCaller.m</key>
       <dict>
@@ -412,6 +434,19 @@
         <key>TargetIndices</key>
         <array/>
       </dict>
+      <key>cslim/include/ExecutorObjectiveC/OCSlimToObjectiveCBridge.h</key>
+      <dict>
+        <key>Group</key>
+        <array>
+          <string>cslim</string>
+          <string>include</string>
+          <string>ExecutorObjectiveC</string>
+        </array>
+        <key>Path</key>
+        <string>cslim/include/ExecutorObjectiveC/OCSlimToObjectiveCBridge.h</string>
+        <key>TargetIndices</key>
+        <array/>
+      </dict>
       <key>cslim/include/ExecutorObjectiveC/OCSMethodCaller.h</key>
       <dict>
         <key>Group</key>
@@ -502,9 +537,11 @@
       <string>cslim/src/CSlim/SlimListDeserializer.c</string>
       <string>cslim/src/CSlim/SlimListSerializer.c</string>
       <string>cslim/src/CSlim/SlimUtil.c</string>
+      <string>cslim/src/ExecutorObjectiveC/Fixtures.m</string>
       <string>cslim/src/ExecutorObjectiveC/OCSException.m</string>
       <string>cslim/src/ExecutorObjectiveC/OCSInstanceCreator.m</string>
       <string>cslim/src/ExecutorObjectiveC/OCSInvocation.m</string>
+      <string>cslim/src/ExecutorObjectiveC/OCSlimToObjectiveCBridge.m</string>
       <string>cslim/src/ExecutorObjectiveC/OCSMethodCaller.m</string>
       <string>cslim/src/ExecutorObjectiveC/OCSObjectiveCtoCBridge.m</string>
       <string>cslim/src/ExecutorObjectiveC/OCSReturnValue.m</string>
@@ -527,6 +564,7 @@
       <string>cslim/include/ExecutorObjectiveC/OCSException.h</string>
       <string>cslim/include/ExecutorObjectiveC/OCSInstanceCreator.h</string>
       <string>cslim/include/ExecutorObjectiveC/OCSInvocation.h</string>
+      <string>cslim/include/ExecutorObjectiveC/OCSlimToObjectiveCBridge.h</string>
       <string>cslim/include/ExecutorObjectiveC/OCSMethodCaller.h</string>
       <string>cslim/include/ExecutorObjectiveC/OCSObjectiveCtoCBridge.h</string>
       <string>cslim/include/ExecutorObjectiveC/OCSReturnValue.h</string>
